@@ -47,10 +47,10 @@ around the dynamic link library functions found in the Windows API.
 %build
 %{_mingw32_configure} \
   --incdir=%{_mingw32_includedir} \
-  --cc=i686-pc-mingw32-gcc \
+  --cc=i586-pc-mingw32-gcc \
   --enable-shared=yes \
   --enable-static=no \
-  --enable-strip=i686-pc-mingw32-strip
+  --enable-strip=i586-pc-mingw32-strip
 make %{?_smp_mflags}
 
 
