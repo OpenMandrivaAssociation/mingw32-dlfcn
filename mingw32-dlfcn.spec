@@ -10,7 +10,7 @@
 
 Name:          mingw32-dlfcn
 Version:       0
-Release:       %{alphatag}.%mkrel 2
+Release:       %{alphatag}.%mkrel 3
 Summary:       Implements a wrapper for dlfcn (dlopen dlclose dlsym dlerror)
 
 License:       LGPLv2+
