@@ -69,3 +69,20 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_bindir}/libdl.dll
 %{_mingw32_libdir}/libdl.dll.a
 %{_mingw32_includedir}/dlfcn.h
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0-r11.3mdv2011.0
++ Revision: 620345
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0-r11.2mdv2010.0
++ Revision: 439813
+- rebuild
+
+* Fri Feb 06 2009 Jérôme Soyer <saispo@mandriva.org> 0-r11.1mdv2009.1
++ Revision: 338152
+- Fix compiler
+- import mingw32-dlfcn
+
+
