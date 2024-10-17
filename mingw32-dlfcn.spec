@@ -15,7 +15,7 @@ Summary:       Implements a wrapper for dlfcn (dlopen dlclose dlsym dlerror)
 
 License:       LGPLv2+
 Group:         Development/Other
-URL:           http://code.google.com/p/dlfcn-win32/
+URL:           https://code.google.com/p/dlfcn-win32/
 Source0:       http://dlfcn-win32.googlecode.com/files/%{realname}-%{alphatag}.tar.bz2
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
